@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "binaries": {
+    "ffmpeg.aar": {
+      "coordinate": "io.github.jamaismagic.ffmpeg:ffmpeg-kit-main-min-16kb:6.1.4",
+      "url": "https://repo.maven.apache.org/maven2/io/github/jamaismagic/ffmpeg/ffmpeg-kit-main-min-16kb/6.1.4/ffmpeg-kit-main-min-16kb-6.1.4.aar",
+      "sha256": "9f7bbf88628a8c0c5b30063e545c25d78183971eb088635ca11d1112950f3518",
+      "release_asset_url": "https://github.com/JamaisMagic/ffmpeg-kit-16KB/releases/download/ffmpeg-kit-android-min-2026-01-27T12-56-32/ffmpeg-kit-main-min-ndk-r27-16k.aar",
+      "source_commit": "c7ca204219d549f563799bacbbdfeb19e31530f2",
+      "ci_run": "https://github.com/JamaisMagic/ffmpeg-kit-16KB/actions/runs/21397164611"
+    },
+    "smart.jar": {
+      "coordinate": "com.arthenica:smart-exception-java:0.2.1",
+      "url": "https://repo.maven.apache.org/maven2/com/arthenica/smart-exception-java/0.2.1/smart-exception-java-0.2.1.jar",
+      "sha256": "5b96aaa5f191dedbef72fb0c38f1a2b01807920afc0d92a75a2acd6e0cc7703c"
+    },
+    "smart-common.jar": {
+      "coordinate": "com.arthenica:smart-exception-common:0.2.1",
+      "url": "https://repo.maven.apache.org/maven2/com/arthenica/smart-exception-common/0.2.1/smart-exception-common-0.2.1.jar",
+      "sha256": "1cad0fb4dfa01755a014331b5ed199281d2c3fab5aca5c9d7abd0b41d0ec3f7b"
+    }
+  },
+  "sources": [
+    {
+      "file": "vendor/sources/ffmpegkit-c7ca204219d549f563799bacbbdfeb19e31530f2.zip",
+      "commit": "c7ca204219d549f563799bacbbdfeb19e31530f2",
+      "sha256": "0a9979a237cddbf8e9d8b56859cf1cd99b9c9db1d8f19a50cf0aa7e14be6b49c"
+    },
+    {
+      "file": "vendor/sources/ffmpeg-34277e12e80031c7f89494ba543684bc1dd0be8f.zip",
+      "commit": "34277e12e80031c7f89494ba543684bc1dd0be8f",
+      "sha256": "85da628b81486059aab504ce305b193dfdb12746671db9209997338edb28bdbb"
+    },
+    {
+      "file": "vendor/sources/cpu-features-d3b2440fcfc25fe8e6d0d4a85f06d68e98312f5b.zip",
+      "commit": "d3b2440fcfc25fe8e6d0d4a85f06d68e98312f5b",
+      "sha256": "2aff2bd4ac555169bce671c7ecbf9ff6179bb4ebdbb3ee668ea7b519974fc392"
+    },
+    {
+      "file": "vendor/sources/gnu-config-805517123cbfe33d17c989a18e78c5789fab0437.zip",
+      "commit": "805517123cbfe33d17c989a18e78c5789fab0437",
+      "sha256": "719ab5251e658367ca79dad1af17e72a64112f62a1554b86d1d2c73d6fa99002"
+    },
+    {
+      "file": "vendor/sources/smart-exception-e77d0004790d39e5e57888ae8e7292f85711d12f.zip",
+      "commit": "e77d0004790d39e5e57888ae8e7292f85711d12f",
+      "sha256": "1b2d24fb8b24ace4ce70290784c0038acbf03b1abe18ad0503cdc87b6a5995fc"
+    }
+  ]
+}
